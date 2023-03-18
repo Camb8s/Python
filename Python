@@ -1,6 +1,7 @@
 print ("Hello,") + ("Cameron")
 todays_date = "18/03/2023"
 remainder = 1398 % 11
+#this is a a comment to say that this is the annual rainfall
 january_to_june_rainfall = 1.93 + 0.71 + 3.53 + 3.41 + 3.69 + 4.50
 annual_rainfall = january_to_june_rainfall
 
