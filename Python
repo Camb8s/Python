@@ -31,3 +31,4 @@ haiku = """The old pond,
 A frog jumps in:
 Plop!"""
 age_is_12 = False
+name_is_maria = True
