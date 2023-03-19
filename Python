@@ -30,3 +30,4 @@ print float_cucumbers_per_person
 haiku = """The old pond,
 A frog jumps in:
 Plop!"""
+age_is_12 = False
