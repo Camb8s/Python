@@ -62,9 +62,10 @@ So if you wanted "Y", you could just type
 "PYTHON"[1] (always start counting from 0!)
 """
 fifth_letter = "MONTY"[4]
-
+#how to count the letters
 print fifth_letter
 parrot = "Norwegian Blue"
 print len(parrot) 
+#How to do lowercase
 parrot = "Norwegian Blue"
 print parrot.lower()
