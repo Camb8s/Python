@@ -64,3 +64,5 @@ So if you wanted "Y", you could just type
 fifth_letter = "MONTY"[4]
 
 print fifth_letter
+parrot = "Norwegian Blue"
+print len(parrot) 
