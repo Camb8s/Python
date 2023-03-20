@@ -92,3 +92,7 @@ print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 my_string = "hey"
 print len(my_string)
 print my_string.upper()
+#You can use a function called datetime.now() to retrieve the current date and time
+from datetime import datetime
+now = datetime.now()
+print now
