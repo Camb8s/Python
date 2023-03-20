@@ -83,3 +83,4 @@ print ministry.upper()
 the_machine_goes = "Ping!"
 print the_machine_goes
 #Printing a string
+print "Spam " + "and " + "eggs"
