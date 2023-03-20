@@ -75,3 +75,7 @@ print parrot.upper()
 #The str() method turns non-strings into strings! For examp
 pi = 3.14
 print str(pi)
+ministry = "The Ministry of Silly Walks"
+
+print len(ministry)
+print ministry.upper()
