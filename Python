@@ -66,3 +66,5 @@ fifth_letter = "MONTY"[4]
 print fifth_letter
 parrot = "Norwegian Blue"
 print len(parrot) 
+parrot = "Norwegian Blue"
+print parrot.lower()
