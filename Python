@@ -69,3 +69,7 @@ print len(parrot)
 #How to do lowercase
 parrot = "Norwegian Blue"
 print parrot.lower()
+#Upper case
+parrot = "norwegian blue"
+print parrot.upper()
+#The str() method turns non-strings into strings! For examp
