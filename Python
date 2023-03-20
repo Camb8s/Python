@@ -79,3 +79,6 @@ ministry = "The Ministry of Silly Walks"
 
 print len(ministry)
 print ministry.upper()
+#How to print variables
+the_machine_goes = "Ping!"
+print the_machine_goes
