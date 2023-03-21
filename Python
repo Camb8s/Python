@@ -168,3 +168,8 @@ bool_four = True or True
 # Make me true!
 bool_five = not False
 #Using if statements
+response = "Y"
+
+answer = "Left"
+if answer == "Left":
+    print "This is the Verbal Abuse Room, you heap of parrot droppings!"
