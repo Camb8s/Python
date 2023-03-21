@@ -132,3 +132,4 @@ bool_four = "potato" != "potato"
 
 # Make me true!
 bool_five = "tomato" == "tomato"
+#For using or booleans
