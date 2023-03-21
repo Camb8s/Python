@@ -152,3 +152,18 @@ bool_three = not 10 % 3 <= 10 % 2
 bool_four = not 3 ** 2 + 4 ** 2 != 5 ** 2
 
 bool_five = not not False
+#Using boolean operators again
+# Make me false!
+bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
+
+# Make me true!
+bool_two = True or True
+
+# Make me false!
+bool_three = not True
+
+# Make me true!
+bool_four = True or True 
+
+# Make me true!
+bool_five = not False
