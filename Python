@@ -191,6 +191,10 @@ def black_knight():
         return True
     else:             
         return   False 
+    
+
+
+    
    
     def french_soldier():
     if answer == "Go away, or I shall taunt you a second time!":
@@ -198,6 +202,9 @@ def black_knight():
     else:             
         return  False 
     #Using elif statments
+
+
+
     def greater_less_equal_5(answer):
     if answer > 5:
         return 1
@@ -212,3 +219,23 @@ print greater_less_equal_5(6)
 
 
 #Using more if and elif statements
+def grade_converter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80:
+        return "B"
+    elif grade >= 70:
+        return "C"
+    elif grade >= 65:
+        return "D"
+    else:
+        return "F"
+      
+# This should print an "A"      
+print grade_converter(92)
+
+# This should print a "C"
+print grade_converter(70)
+
+# This should print an "F"
+print grade_converter(61)
