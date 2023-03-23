@@ -329,3 +329,7 @@ def distance_from_zero(num):
     return abs(num)
   else:
     return "Nope"
+  
+  #more practice
+  def hotel_cost(nights):
+  return 140 * nights
