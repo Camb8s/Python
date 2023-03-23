@@ -333,3 +333,43 @@ def distance_from_zero(num):
   #more practice
   def hotel_cost(nights):
   return 140 * nights
+def plane_ride_cost(city):
+  if city == "Charlotte":
+    return 183
+  elif city == "Tampa":
+    return 220
+  elif city == "Pittsburgh":
+    return 222
+  elif city == "Los Angeles":
+    return 475
+
+def rental_car_cost(days):
+  cost = days * 40
+  if days >= 7:
+    cost -= 50
+  elif days >= 3:
+    cost -= 20
+  return cost
+
+def trip_cost(city, days):
+  return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(city) + spending_money
+print trip_cost("Los Angeles", 5, 600)
+#access by index
+numbers = [5, 6, 7, 8]
+
+print "Adding the numbers at indices 0 and 2..."
+print numbers[0] + numbers[2]
+print "Adding the numbers at indices 1 and 3..."
+# Your code here!
+print numbers[1] + numbers[3]
+#slicing list and strings
+animals = "catdogfrog"
+
+# The first three characters of animals
+cat = animals[:3]
+
+# The fourth through sixth characters
+dog = animals[3:6]
+
+# From the seventh character to the end
+frog = animals[6:]
