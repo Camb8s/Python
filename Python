@@ -289,3 +289,6 @@ def by_three(number):
     return cube(number)
   else:
     return False
+  #How to import math
+  import math
+print math.sqrt(25)
