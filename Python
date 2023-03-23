@@ -305,3 +305,11 @@ print maximum
 minimum = min(1,0,-1)
 
 print minimum
+#Using abs() functions 
+absolute = abs(-42)
+
+print absolute
+#Using the tpye() function
+print type(108)
+print type(3.14)
+print type('hello')
