@@ -292,3 +292,16 @@ def by_three(number):
   #How to import math
   import math
 print math.sqrt(25)
+
+#Importing functions
+from math import sqrt
+#Use this universal import for all the math imports
+from math import *
+#Using the max function
+maximum = max(1,2,3)
+
+print maximum
+#Using the min function
+minimum = min(1,0,-1)
+
+print minimum
