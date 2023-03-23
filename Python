@@ -242,3 +242,7 @@ print grade_converter(61)
 
 #Pig latin translator
 original = raw_input("Enter a word: ")
+if len(original) > 0:
+  print original
+else:
+    print "empty"
