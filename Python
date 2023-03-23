@@ -252,3 +252,6 @@ else:
     print "empty"
 
 #Functions
+ef spam():
+  """Prints 'Eggs!'"""
+  print "Eggs!"
