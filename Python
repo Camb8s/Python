@@ -241,3 +241,4 @@ print grade_converter(70)
 print grade_converter(61)
 
 #Pig latin translator
+original = raw_input("Enter a word: ")
