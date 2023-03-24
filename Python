@@ -492,3 +492,11 @@ def fizz_count(x):
     if item == "fizz":
       count = count + 1
   return count
+
+#more dictionaries 
+prices = {
+  "banana": 4,
+  "apple": 2,
+  "orange": 1.5,
+  "pear": 3
+}
